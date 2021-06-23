@@ -1,0 +1,17 @@
+
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="20px" height="26px" viewBox="0 0 20 26" style="enable-background:new 0 0 20 26;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path d="M12,4h-2v3H9V4H7V3h1V2h1V1h1v1h1v1h1V4z M7,15h2v-3h1v3h2v1h-1v1h-1v1H9v-1H8v-1H7V15z M7,9H4V7H3v1H2v1H1v1h1v1h1v1h1v-2
+	h3V9z M18,9h-1V8h-1V7h-1v2h-3v1h3v2h1v-1h1v-1h1V9z"/>
+<path class="st0" d="M10,2V1h1v1H10z M12,3V2h-1v1H12z M12,3v1h-2v3H9V4H7V3H6v1v1h2v3h3V5h2V3H12z M10,0H9v1h1V0z M9,1H8v1h1V1z
+	 M8,2H7v1h1V2z M9,17v1H8v-1H9z M7,16v1h1v-1H7z M7,16v-1h2v-3h1v3h2v1h1v-1v-1h-2v-3H8v3H6v2H7z M9,19h1v-1H9V19z M10,18h1v-1h-1
+	V18z M11,17h1v-1h-1V17z M17,11h1v-1h-1V11z M16,12h1v-1h-1V12z M16,12h-1v-2h-1h-2V9h2h1V7h1V6h-1h-1v2h-3v1v1v1h3v2h1h1V12z
+	 M19,10V9h-1v1H19z M18,9V8h-1v1H18z M17,8V7h-1v1H17z M2,8H1v1h1V8z M3,7H2v1h1V7z M3,7h1v2h3v1H4v2H3v1h2v-2h3V8H5V6H3V7z M0,9v1
+	h1V9H0z M1,10v1h1v-1H1z M2,11v1h1v-1H2z"/>
+<polygon class="st0" points="19,11 19,10 12,10 12,11 15,11 15,24 12,24 12,25 19,25 19,24 16,24 16,11 "/>
+<path d="M11,9v1v1v1h3v11h-3v1v1v1h9v-1v-1v-1h-3V12h3v-1v-1V9H11z M19,11h-3v1v11v1h3v1h-7v-1h3v-1V12v-1h-3v-1h7V11z"/>
+</svg>
