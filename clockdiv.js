@@ -1,5 +1,6 @@
 function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.now();
+  const miliseconds = total%1000;
   const seconds = Math.floor((total / 1000) % 60);
   const minutes = Math.floor((total / 1000 / 60) % 60);
   const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
@@ -10,7 +11,8 @@ function getTimeRemaining(endtime) {
     days,
     hours,
     minutes,
-    seconds
+    seconds,
+    miliseconds
   };
 }
 
@@ -20,6 +22,7 @@ function initializeClock(id, endtime) {
   const hoursSpan = clock.querySelector('.hours');
   const minutesSpan = clock.querySelector('.minutes');
   const secondsSpan = clock.querySelector('.seconds');
+  const milisecondsSpan = clock.querySelector('.miliseconds');
 
   function updateClock() {
     const t = getTimeRemaining(endtime);
@@ -28,6 +31,7 @@ function initializeClock(id, endtime) {
     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+    milisecondsSpan.innerHTML=('00'+t.miliseconds).slice(-3);
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
@@ -36,8 +40,8 @@ function initializeClock(id, endtime) {
 
 
   updateClock();
-  const timeinterval = setInterval(updateClock, 1000);
+  const timeinterval = setInterval(updateClock, 9);
 }
 
-const deadline = new Date(Date.parse("1/5/2022 17:49:52")-24*60*60*1000);
+const deadline = new Date(Date.parse("1/6/2022 17:49:52")-24*60*60*1000);
 initializeClock('clockdiv', deadline);
