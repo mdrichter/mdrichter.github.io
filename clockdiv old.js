@@ -11,8 +11,7 @@ function getTimeRemaining(endtime) {
     days,
     hours,
     minutes,
-    seconds,
-    miliseconds
+    seconds
   };
 }
 
@@ -22,7 +21,6 @@ function initializeClock(id, endtime) {
   const hoursSpan = clock.querySelector('.hours');
   const minutesSpan = clock.querySelector('.minutes');
   const secondsSpan = clock.querySelector('.seconds');
-  const milisecondsSpan = clock.querySelector('.miliseconds');
 
   function updateClock() {
     const t = getTimeRemaining(endtime);
@@ -31,7 +29,6 @@ function initializeClock(id, endtime) {
     hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-    milisecondsSpan.innerHTML=('00'+t.miliseconds).slice(-3);
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
