@@ -40,5 +40,5 @@ function initializeClock(id, endtime) {
   const timeinterval = setInterval(updateClock, 9);
 }
 
-const deadline = new Date(Date.parse("1/6/2022 17:49:52")-24*60*60*1000);
+const deadline = new Date(Date.parse("1/6/2024 17:49:52")-24*60*60*1000);
 initializeClock('clockdiv', deadline);
